@@ -1,11 +1,10 @@
-const PORT = process.env.PORT || 3000;
 const express = require('express');
-const app = express();
+const PORT = process.env.PORT || 5000;
 
-app.get("/", function (req, res){
-    res.send("Monica Larco");
-});
+express()
+  .get("/", (req, res) => res.send("Monica Larco"))
+  .listen(PORT, () => console.log(`Listening on ${ PORT }`));
 
-server.listen(PORT, function() {
-  console.log('App server running');
-});
+// server.listen(PORT, function() {
+//   console.log('App server running');
+// });
