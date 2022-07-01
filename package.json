@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MonicaLarco/project-nodejs/issues"
   },
-  "homepage": "https://github.com/MonicaLarco/project-nodejs#readme"
+  "homepage": "https://github.com/MonicaLarco/project-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
